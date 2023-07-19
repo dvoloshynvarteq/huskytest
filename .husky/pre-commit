@@ -1,8 +1,7 @@
 #!/bin/sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-echo 'husky git hook'
-.git/hooks/pre-commit
-#npm test
-#npx --no -- commitlint --edit "$1"
+if test -f ".git/hooks/pre-commit"; then
+    .git/hooks/pre-commit
+fi
 
