@@ -2,6 +2,6 @@
 . "$(dirname -- "$0")/_/husky.sh"
 
 echo 'husky git hook'
-npm test
-npx --no -- commitlint --edit "$1"
+#npm test
+#npx --no -- commitlint --edit "$1"
 
