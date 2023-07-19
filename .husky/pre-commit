@@ -1,7 +1,7 @@
 #!/bin/sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-echo 124141241
+echo 'husky git hook'
 npm test
 npx --no -- commitlint --edit "$1"
 
