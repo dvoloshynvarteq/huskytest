@@ -54,6 +54,6 @@
     ]
   },
   "devDependencies": {
-    "husky": "^8.0.3"
+    "husky": "^8.0.0"
   }
 }
