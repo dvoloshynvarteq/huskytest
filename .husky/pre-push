@@ -1,0 +1,8 @@
+#!/bin/sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+FILE=".git/hooks/pre-push"
+
+if [ -f "$FILE" ]; then
+  $FILE
+fi
